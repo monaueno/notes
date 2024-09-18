@@ -9,34 +9,33 @@ go over command lines
 
 ### HTML
 
-If you want to see any of them and how they look, delete "/"s. 
 
-/<html lang="en">
+<html lang="en">
   lang = attribute
   "en" = attribute value
 </html>
 
 ### Title:
-/<head> 
+<head> 
 </head>
 
 ### Body:
-/<body>
-  /<p>Hello world</p> (paragraph tags)
+<body>
+  <p>Hello world</p> (paragraph tags)
 </body>
 
 ### Another type of attribute: images
-/<img alt = "beach"
-/src="https://images.pexels.com/photos/21787/pexels-photo.jpg?w=600&h=300"/>
+<img alt = "beach"
+src="https://images.pexels.com/photos/21787/pexels-photo.jpg?w=600&h=300"/>
 can insert width and height of an image, usually after the ?
 
 ### link references 
 
 #### absolute:
-/<a href="https://cs260.click/profile.png">
+<a href="https://cs260.click/profile.png">
 
 #### Relative:
-/<a href="profile.png" />
+<a href="profile.png" />
 
 ### elements:
 div (block division of content

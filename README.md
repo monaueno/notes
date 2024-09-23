@@ -53,3 +53,49 @@ ol,ul (ordered & unordered lists
 a (anchor the text to a hyperlink)
 
 img
+
+9/23
+
+#CSS
+
+p {
+  color:red;
+}
+(changes all the paragraphs red)
+
+p {
+  color:red;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+(add animation)
+
+<div class="box"></div> (HTML)
+
+.box {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+(CSS)
+

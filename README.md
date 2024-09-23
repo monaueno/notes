@@ -54,9 +54,9 @@ a (anchor the text to a hyperlink)
 
 img
 
-9/23
+## 9/23
 
-#CSS
+### CSS
 
 p {
   color:red;

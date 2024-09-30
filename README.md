@@ -99,3 +99,29 @@ p {
 }
 (CSS)
 
+
+HTTP - what I learned from my startup.
+
+I learned how to make input boxes: <div> <span>*</span>
+<input type="text" placeholder="placeholder">
+</div>
+
+I also learned how to make a table:
+<table>
+  <thead>
+    <tbody>
+      <tr>
+        <td>first column</td>
+        <td>second column</td>
+        <td>third column</td>
+      </tr>
+      <tr>
+        <td>second row</td>
+        <td>second row</td>
+        <td>second row</td>
+      </tr>
+    </tbody>
+  </thead>
+</table>
+
+

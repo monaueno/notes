@@ -124,4 +124,10 @@ I also learned how to make a table:
   </thead>
 </table>
 
+### For CSS formatting
+
+header div {
+  margin: 0 10px; 
+  padding: 5px 0;
+}
 

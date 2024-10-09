@@ -131,3 +131,14 @@ header div {
   padding: 5px 0;
 }
 
+### Oct 9 - Java
+
+objects:
+document -> html -> body -> p -> span
+console -> can print out each object
+console.log(object) = print out in console to look at pieces of it
+
+querySelectorAll('p') -> selects ALL the p tags
+el.parent.Element.removeChild(el) -> remove
+el.innerHTML = '<div class="injected"><b>Hello</b>!</div>' -> injects
+

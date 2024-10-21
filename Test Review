@@ -43,12 +43,49 @@ function add(a, b) {
 Arrow Syntax Function:
 const add = (a, b) => a + b;
 
-What does the following code using map with an array output?
-What does the following code output using getElementByID and addEventListener?
-What does the following line of Javascript do using a # selector?
-Which of the following are true? (mark all that are true about the DOM)
-By default, the HTML span element has a default CSS display property value of: 
-How would you use CSS to change all the div elements to have a background color of red?
+### 8. What does the following code using map with an array output?
+// Create an Array
+const cars = ["Saab", "Volvo", "BMW"];
+
+### 9. What does the following code output using getElementByID and addEventListener?
+##### The getElementById method is used to retrieve an HTML element by its unique ID attribute. Since IDs are unique within a webpage, this method returns a single element.
+document.getElementById('id');
+
+##### The addEventListener method is used to attach an event handler to an element, allowing you to execute JavaScript code when a specified event (like a click, hover, or keypress) occurs.
+element.addEventListener(event, function, useCapture);
+
+document.getElementById('myButton').addEventListener('click', function() {
+  alert('Button clicked!');
+});
+
+### 10. What does the following line of Javascript do using a # selector?
+In CSS, the # selector is used to target an HTML element by its ID. It is called the ID selector.
+
+### 11. Which of the following are true? (mark all that are true about the DOM)
+Document
+└── html
+    ├── head
+    │   └── title (Page Title)
+    └── body
+        ├── h1 (Hello World)
+        └── p (This is a paragraph.)
+
+##### Nodes in the DOM:
+
+Element Nodes: Represent HTML elements, such as <div>, <p>, <h1>, etc.
+Text Nodes: Represent the text inside elements.
+Attribute Nodes: Represent attributes of elements (like class, id, etc.).
+Document Node: The root of the tree, representing the entire document.
+
+### 12. By default, the HTML span element has a default CSS display property value of: 
+
+By default, the HTML <span> element has a CSS display property value of inline.
+
+Explanation:
+inline means that the element does not start on a new line and only takes up as much width as necessary. It allows other elements to be placed on the same line beside it.
+span is typically used for small portions of text or content that need specific styling without affecting the layout significantly.
+
+### 13. How would you use CSS to change all the div elements to have a background color of red?
 How would you display an image with a hyperlink in HTML?
 In the CSS box model, what is the ordering of the box layers starting at the inside and working out?
 Given the following HTML, what CSS would you use to set the text "trouble" to green and leave the "double" text unaffected?

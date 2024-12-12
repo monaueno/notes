@@ -1,6 +1,6 @@
 ## CS 260 Final Exam Questions
 
-###What is the default port for HTTP/HTTPS/SSH? 
+### What is the default port for HTTP/HTTPS/SSH? 
 
 
 ### What does an HTTP status code in the range of 300/400/500 indicate?

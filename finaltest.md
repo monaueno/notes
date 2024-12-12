@@ -1,11 +1,10 @@
 ## CS 260 Final Exam Questions
 
 ### What is the default port for HTTP/HTTPS/SSH? 
-
+HTTP: 80, HTTPS: 443, SSH: 22
 
 ### What does an HTTP status code in the range of 300/400/500 indicate?
-
-
+Errors 300: Redirection, 400: client errors, 500: server errors
 
 ### What does the HTTP header content-type allow you to do?
 

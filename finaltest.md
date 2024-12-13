@@ -60,14 +60,14 @@ Triggers re-renders: When you call the update function, it triggers React to re-
 React hooks are functions that let you "hook into" React features like state and lifecycle methods directly from functional components. 
 
 ### 16. What does the State Hook/Context Hook/Ref Hook/Effect Hook/Performance Hook do? https://react.dev/reference/react/hooks
-- [ ]Hook/Contex: Context lets a component receive information from distant parents without passing it as props. For example, your app’s top-level component can pass the current UI theme to all components below, no matter how deep.
+- [ ] Hook/Contex: Context lets a component receive information from distant parents without passing it as props. For example, your app’s top-level component can pass the current UI theme to all components below, no matter how deep.
 
 useContext reads and subscribes to a context.
 function Button() {
   const theme = useContext(ThemeContext);
   // ...
 
-- [ ]Hook/Ref: Refs let a component hold some information that isn’t used for rendering, like a DOM node or a timeout ID. Unlike with state, updating a ref does not re-render your component. Refs are an “escape hatch” from the React paradigm. They are useful when you need to work with non-React systems, such as the built-in browser APIs.
+- [ ] Hook/Ref: Refs let a component hold some information that isn’t used for rendering, like a DOM node or a timeout ID. Unlike with state, updating a ref does not re-render your component. Refs are an “escape hatch” from the React paradigm. They are useful when you need to work with non-React systems, such as the built-in browser APIs.
 
 useRef declares a ref. You can hold any value in it, but most often it’s used to hold a DOM node.
 useImperativeHandle lets you customize the ref exposed by your component. This is rarely used.
@@ -75,7 +75,7 @@ function Form() {
   const inputRef = useRef(null);
   // ...
 
-- [ ]Hook/Effect: Effects let a component connect to and synchronize with external systems. This includes dealing with network, browser DOM, animations, widgets written using a different UI library, and other non-React code.
+- [ ] Hook/Effect: Effects let a component connect to and synchronize with external systems. This includes dealing with network, browser DOM, animations, widgets written using a different UI library, and other non-React code.
 
 useEffect connects a component to an external system.
 function ChatRoom({ roomId }) {
@@ -92,7 +92,7 @@ There are two rarely used variations of useEffect with differences in timing:
 useLayoutEffect fires before the browser repaints the screen. You can measure layout here.
 useInsertionEffect fires before React makes changes to the DOM. Libraries can insert dynamic CSS here.
 
-- [ ]Hook/Performance: A common way to optimize re-rendering performance is to skip unnecessary work. For example, you can tell React to reuse a cached calculation or to skip a re-render if the data has not changed since the previous render.
+- [ ] Hook/Performance: A common way to optimize re-rendering performance is to skip unnecessary work. For example, you can tell React to reuse a cached calculation or to skip a re-render if the data has not changed since the previous render.
 
 To skip calculations and unnecessary re-rendering, use one of these Hooks:
 
